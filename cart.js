@@ -82,3 +82,33 @@ function getPrice(event){
   var jsonPrice=JSON.stringify(setPrice);
   localStorage.setItem('setPrice',jsonPrice);
 }
+
+function voucher(event){
+  setTimeout(function(){
+    var parentEvent=$(event).parent().parent();
+    var discountAmout=parentEvent.find('.discount-amount');
+    var totalMoney=parentEvent.find('.total-money-amount');
+    var coupon='voucher'
+    if(event.value==coupon)
+    {
+     $('#notice').text('Thành công.')
+     discountAmout.text('50.000đ');
+    //  var provisional=parentEvent.find('.provisional-money-amount').text();
+    //  var provisionalSlice=provisional.slice(0,4);
+    //  console.log(provisionalSlice)
+    totalMoney.text('670.000đ')
+    }
+    else
+    {
+      $('#notice').text('Coupon nhập không đúng!')
+      discountAmout.text('0đ')
+      totalMoney.text('720.000đ')
+    }
+    if(event.value=='')
+    {
+      $('#notice').css('display','none')
+      discountAmout.text('0đ')
+      totalMoney.text('720.000đ')
+    }
+  },300)
+}

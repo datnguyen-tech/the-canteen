@@ -212,7 +212,7 @@ img.img-product {
 
 .name-product {
     font-family: sans-serif;
-    font-size: 48px;
+    font-size: 2rem;
     color: #FAC122;
 }
 
@@ -1714,12 +1714,6 @@ i.fab.fa-google-plus {
     .menu-1 {
         padding: 10px;
     }
-
-
-    p.name-product.text-center {
-        font-size: 48px;
-    }
-
     p.ingredients.text-center {
         font-size: 20px;
     }

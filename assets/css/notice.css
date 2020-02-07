@@ -75,6 +75,7 @@ li.nav-item:hover::before {
 /* block user */
 .container-fluid.main {
     background-color: rgba(196, 196, 196, 0.12);
+    padding-bottom: 50px;
 }
 
 .user {
@@ -235,6 +236,43 @@ p.infor-status span {
 
 p.date-status {
     color: #6A5E5E;
+}
+
+/* footer */
+.footer {
+    background: url(/assets/imgs/bg_footer.png);
+    height: 445px;s
+}
+
+p#sologan-footer {
+    font-size: 24px;
+    color: #A99292;
+    padding-top: 21px;
+}
+
+p#address {
+    font-size: 24px;
+    color: #A99292;
+}
+
+i.fab.fa-facebook {
+    font-size: 30px;
+    color: #A99292;
+}
+
+i.fab.fa-twitter-square {
+    font-size: 30px;
+    color: #A99292;
+    /* border-radius: 50%; */
+}
+
+i.fab.fa-google-plus {
+    font-size: 30px;
+    color: #A99292;
+}
+
+.main-footer {
+    padding-top: 65px;
 }
 
 /* reponsive */

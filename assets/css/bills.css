@@ -283,6 +283,47 @@ i.fab.fa-google-plus {
 .main-footer {
     padding-top: 65px;
 }
+/* btn back to top */
+#btn-backtop {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#btn-backtop::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: '\f077';
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#btn-backtop:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#btn-backtop:active {
+    background-color: #555;
+}
+
+#btn-backtop.show {
+    opacity: 1;
+    visibility: visible;
+}
 /* reponsive */
 @media (min-width:320px) and (max-width:479px){
     span.navbar-toggler-icon {

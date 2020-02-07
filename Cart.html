@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon-32x32.png">
     <!-- Link -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/cart.css">
@@ -83,19 +84,21 @@
                 </div>
                 <div class="discount">
                     <p class="discount-text">Giảm giá:</p>
-                    <p class="discount-amount">50.000đ</p>
+                    <p class="discount-amount">0đ</p>
                 </div>
                 <form action="">
-                    <input class="discount-code" type="text" placeholder="Nhập mã giảm giá vào đây">
+                    <input class="discount-code" type="text" onchange="voucher(this)" placeholder="Nhập mã giảm giá vào đây">
+                    <p id="notice"></p>
                 </form>
+                <p id="notice"></p>
                 <hr id="line">
                 <div class="transport-fee">
                     <p class="transport-fee-text">Phí vận chuyển:</p>
-                    <p class="transport-fee-amount">300.000đ</p>
+                    <p class="transport-fee-amount">20.000đ</p>
                 </div>
                 <div class="total-money">
                     <p class="total-money-text">Thành tiền:</p>
-                    <p class="total-money-amount">715.000đ</p>
+                    <p class="total-money-amount">720.000đ</p>
                 </div>
                 <button type="button" class="btn btn-danger pay" onclick="getPrice(this)">THANH TOÁN</button>
             </div>
