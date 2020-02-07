@@ -361,6 +361,9 @@ i.fab.fa-google-plus {
         width: 93%;
         height: 43px;
     }
+    select#inputState {
+        width: 93%;
+    }
     
     textarea.form-control {
         width: 100%;
@@ -391,6 +394,25 @@ i.fab.fa-google-plus {
     
     .row.footer {
         margin-top: 30px;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address{
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width:576px) and (max-width:767px) {
@@ -471,6 +493,10 @@ i.fab.fa-google-plus {
     .row.footer {
         margin-top: 50px;
     }
+    p.provisional-money-text {
+        font-size: 24px;
+    }
+    
 }
 @media (min-width:992px) and (max-width:1199px){
     .block-total {

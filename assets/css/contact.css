@@ -212,6 +212,25 @@ i.fab.fa-google-plus {
     ul.navbar-nav.menu-right {
         font-size: 14px;
     }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address-footer{
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 25px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 @media (min-width: 480px) and (max-width:575px){
     .container-fluid.header {
@@ -263,6 +282,25 @@ i.fab.fa-google-plus {
 
     ul.navbar-nav.menu-right {
         font-size: 14px;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address-footer {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 25px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width: 576px) and (max-width:767px) {

@@ -300,7 +300,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 32px;
+        font-size: 1.5rem;
     }
 
     div#book_now {
@@ -313,6 +313,7 @@ i.fab.fa-google-plus {
 
     button.btn.btn-danger {
         font-size: 18px;
+        padding: 5px;
     }
     .navbar-brand img {
         height: 44px !important;
@@ -345,6 +346,7 @@ i.fab.fa-google-plus {
     i.fas.fa-trash-alt {
         order: 1;
         margin-bottom: 13px;
+        opacity: 0.6;
     }
     
     p.name-product {
@@ -363,6 +365,25 @@ i.fab.fa-google-plus {
     
     .block-total {
         border: none;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address{
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width: 576px) and (max-width:767px){

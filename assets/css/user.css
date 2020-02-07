@@ -192,6 +192,7 @@ p.element-user {
     display: flex;
     padding-left: 15%;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .main {
@@ -368,7 +369,7 @@ i.fab.fa-google-plus {
     }
 
     button.btn.log-out {
-        width: 35%;
+        width: 40%;
     }
 
     .row.user {
@@ -376,6 +377,25 @@ i.fab.fa-google-plus {
     }
     .modal-dialog {
         padding: 0 30px;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address{
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width:480px) and (max-width:575px){

@@ -1,11 +1,4 @@
 $(document).ready(function(){
-var myAnimation = new hoverEffect({
-    parent: document.querySelector('.img-product'),
-    intensity: 0.3,
-    image1: '/assets/imgs/product-detail.png',
-    image2: '/assets/imgs/product-detail-1.png',
-    displacementImage: 'library/hover-effect-master/images/dot.jpg'
-});
 var input = $('input'),
     input_val = parseInt(input.val()),
     btn_add = $('.add'),

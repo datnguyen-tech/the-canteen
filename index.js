@@ -48,6 +48,8 @@ $(document).ready(function () {
                     slidesToScroll: 2,
                     arrows: true,
                     infinite: true,
+                    autoplay:true,
+                    autoplaySpeed:2000,
                     dots:false
                 }
             },
@@ -80,14 +82,15 @@ $(document).ready(function () {
     //     dots: true
     // });
     $('.slick-review').slick({
-        // autoplay: true,
+        autoplay: true,
+        autoplaySpeed:2500,
         // dots: true,
         arrows: false
     });
 });
 
 // count down
-var countDownDate = new Date("Feb 02, 2020 0:0:0").getTime();
+var countDownDate = new Date("Feb 14, 2020 0:0:0").getTime();
 var countdownfunction = setInterval(function () {
 
     var now = new Date().getTime();

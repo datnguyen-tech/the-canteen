@@ -191,7 +191,7 @@ p.content-3 {
 }
 #featured-menu-name {
     color: #000;
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-top: 60px;
     margin-bottom: 50px;
@@ -302,16 +302,16 @@ img.img-product {
 }
 
 .time-item {
-    width: 200px;
+    width: calc(100%/6);
     height: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background: #fff;
     position: relative;
 }
 
 .item-inside {
-    width: 150px;
-    height: 150px;
+    width: 80%;
+    height: 80%;
     background: #655F5F;
     /* align-items: center; */
     /* margin: auto; */
@@ -319,7 +319,7 @@ img.img-product {
     margin-left: 13.5px;
     margin-top: 25px;
     color: #fff;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-color: #ff3547;
 }
 
@@ -332,6 +332,7 @@ img.img-product {
 .time-title {
     text-align: center;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 /* End time-countdown */
@@ -346,7 +347,7 @@ img.img-product {
 }
 
 h2#menu-today-name {
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -419,12 +420,14 @@ p.name {
 
 .price {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 p.price {
     margin: 0;
     padding-top: 20px;
+    font-style: italic;
+    color: #ff3547;
 }
 
 p.summary-product {
@@ -702,11 +705,18 @@ i.fab.fa-google-plus {
     opacity: 1;
     visibility: visible;
 }
+.img-promotions {
+    height: 70%;
+}
+
+.img-promotions img {
+    height: 100%;
+}
 
 /* ====================================== */
 @media (min-width:320px) and (max-width:479px) {
     .container-fluid.header {
-        height: 40vh;
+        height: 60vh;
     }
 
     .navbar-brand img {
@@ -766,7 +776,9 @@ i.fab.fa-google-plus {
     .price-product {
         font-size: 1.5rem;
     }
-
+    img.img-product {
+        padding: 30px;
+    }
     .name-sale {
         font-size: 2.5rem !important;
         text-align: center !important;
@@ -806,7 +818,9 @@ i.fab.fa-google-plus {
         flex-wrap: nowrap;
         justify-content: space-around;
     }
-
+    button.menu-link{
+        padding: 5px;
+    }
     li.nav-item.text-center {
         margin: 0px 0px;
     }
@@ -827,6 +841,12 @@ i.fab.fa-google-plus {
         align-items: center;
         padding: 0;
     }
+    .product {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
     .menu-name-product {
         font-size: 1.5rem;
     }
@@ -837,6 +857,7 @@ i.fab.fa-google-plus {
 
     p.summary-product {
         font-size: 1rem;
+        text-align: left;
     }
 
     .col-6.menu-all-right {
@@ -885,7 +906,29 @@ i.fab.fa-google-plus {
         line-height: 30px;
         color: #fff;
     }
+    .time-title {
+        font-size: 1rem;
+    }
+/* footer */
+p#sologan-footer {
+    font-size: 18px;
+}
 
+p#address {
+    font-size: 18px;
+}
+
+i.fab.fa-facebook {
+    font-size: 1.5rem;
+}
+
+i.fab.fa-twitter-square {
+    font-size: 1.5rem;
+}
+
+i.fab.fa-google-plus {
+    font-size: 1.5rem;
+}
 
 }
 
@@ -943,7 +986,7 @@ i.fab.fa-google-plus {
     }
 
     .time-item {
-        width: 130px;
+        width: calc(100%/5);
         height: 130px;
         display: flex;
         justify-content: center;
@@ -951,15 +994,15 @@ i.fab.fa-google-plus {
     }
 
     .item-inside {
-        width: 120px;
-        height: 120px;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-
+    .time-title {
+        font-size: 1rem;
+    }
     .time-number {
         font-size: 2rem;
     }
@@ -1022,6 +1065,9 @@ i.fab.fa-google-plus {
 
     .container-fluid.book-table {
         height: auto;
+    }
+    h4.card-title {
+        font-size: 1.5rem;
     }
 }
 
@@ -1131,9 +1177,11 @@ i.fab.fa-google-plus {
     }
 
     .time-number {
-        font-size: 36px;
+        font-size: 28px;
     }
-
+    .time-title{
+        font-size: 1rem;
+    }
     h2#menu-today-name {
         font-size: 36px;
     }
@@ -1405,7 +1453,7 @@ i.fab.fa-google-plus {
     }
 
     .time-item {
-        width: 140px;
+        width: calc(100%/5);
         height: 140px;
         display: flex;
         align-items: center;
@@ -1646,6 +1694,13 @@ i.fab.fa-google-plus {
     .img-bottom{
         width: auto;
     }
+    h4.card-title {
+        font-size: 20px;
+    }
+    
+    p.card-text {
+        font-size: 16px !important;
+    }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -1696,11 +1751,6 @@ i.fab.fa-google-plus {
     h4.card-title {
         font-size: 18px;
     }
-
-    .comment-reviewer {
-        font-size: 16px;
-    }
-
     p#address {
         font-size: 18px;
     }
@@ -1737,10 +1787,6 @@ i.fab.fa-google-plus {
 
     .time-number {
         font-size: 64px;
-    }
-
-    .time-title {
-        font-size: 36px;
     }
 
     ul#myTab {

@@ -258,7 +258,9 @@ i.fab.fa-google-plus {
         background-size: cover;
         background-position: center;
     }
-
+    span.navbar-toggler-icon {
+        background-color: #fff;
+    }
     .menu {
         background: #343a40;
         z-index: 9999;
@@ -338,6 +340,25 @@ i.fab.fa-google-plus {
         width: 25%;
         font-size: 18px;
         height: 37px;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 25px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 
 }
