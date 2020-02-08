@@ -14,3 +14,7 @@ btn.on('click', function (e) {
         scrollTop: 0
     }, '2000');
 });
+
+function animated(event){
+ $(event).parent().parent().parent().find('.product').addClass('animated bounceInUp');
+}
