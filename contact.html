@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="library/bootstrap-4.4.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="library/MDB/css/mdb.css">
   <link rel="stylesheet" href="library/MDB/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.6.0/dist/sweetalert2.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <title>Liên hệ</title>
 </head>
@@ -99,7 +100,7 @@
             <label for="form-message">Nội dung</label>
           </div>
 
-          <button type="submit" class="btn btn-info btn-sm ml-0">Gửi<i class="far fa-paper-plane ml-2"></i></button>
+          <button type="submit" class="btn btn-info btn-sm ml-0" onclick="send()">Gửi<i class="far fa-paper-plane ml-2"></i></button>
 
         </div>
       </div>
@@ -149,8 +150,21 @@
     </div>
   </div>
   <script src="library/jquery/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.6.0/dist/sweetalert2.all.min.js"></script>
   <script src="library/bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
   <script src="library/MDB/js/mdb.min.js"></script>
+  <script>
+    function send() {
+        Swal.fire(
+            'Cảm ơn bạn đã liên hệ',
+            'Thanks for contact',
+            'success'
+        )
+        setTimeout(function(){
+            window.location.href='index.html';
+        },2000)
+    }
+</script>
 </body>
 
 </html>
