@@ -615,7 +615,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     button.btn.btn-danger.waves-effect.waves-light {
@@ -650,7 +650,7 @@ i.fab.fa-google-plus {
     
     .flex-right {
         padding-bottom: 30px;
-        margin-top: 40px;
+        margin-top: 10px;
     }
     .row.bf.drink {
         display: none;
@@ -682,7 +682,7 @@ i.fab.fa-google-plus {
     }
     
     .flex-right-brf {
-        margin-top: 30px;
+        margin-top: 10px;
         padding-bottom: 30px;
     }
     p.summary-brf {
@@ -718,7 +718,7 @@ i.fab.fa-google-plus {
     }
     
     .flex-right-drink {
-        margin-top: 30px;
+        margin-top: 10px;
         padding-bottom: 30px;
     }
     p#sologan-footer {
@@ -808,7 +808,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     div#book_now button {
@@ -840,6 +840,25 @@ i.fab.fa-google-plus {
     }
     .dinner .drink{
         order: 1;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width: 768px) and (max-width:991px){
@@ -909,6 +928,10 @@ i.fab.fa-google-plus {
 
     a.navbar-brand {
         margin-left: 45px;
+    }
+    #sologan h1 {
+        color: white !important;
+        font-size: 2.5rem;
     }
     .name-drink {
         font-size: 20px;

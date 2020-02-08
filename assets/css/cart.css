@@ -80,7 +80,7 @@ div#book_now {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-50%, -70%);
 }
 
 #sologan h1 {
@@ -295,7 +295,7 @@ p#notice {
 /* reponsive */
 @media (min-width: 320px) and (max-width:575px){
     .container-fluid.header {
-        height: 400px;
+        height: 40vh;
         background-size: cover;
     }
     span.navbar-toggler-icon {
@@ -310,20 +310,11 @@ p#notice {
     }
 
     #sologan h1 {
-        font-size: 1.5rem;
-    }
-
-    div#book_now {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    button.btn.btn-danger {
         font-size: 18px;
-        padding: 5px;
+    }
+    button.btn.btn-danger {
+        padding: 5px 10px;
+        font-size: 16px;
     }
     .navbar-brand img {
         height: 44px !important;
@@ -413,7 +404,7 @@ p#notice {
     }
 
     #sologan h1 {
-        font-size: 32px;
+        font-size: 1.7rem;
     }
 
     div#book_now {
@@ -449,9 +440,6 @@ p#notice {
         width: 90px;
         height: 90px;
     }
-    
-    p.name-product {}
-    
     p.name-product {
         font-size: 1.5rem;
     }
@@ -474,6 +462,25 @@ p#notice {
         margin: 10px 0 20px !important;
         font-size: 18px !important;
     }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 @media (min-width: 768px) and (max-width:991px){
     .menu-left .nav-item {
@@ -489,11 +496,11 @@ p#notice {
     }
 
     #sologan h1 {
-        font-size: 48px;
+        font-size: 2rem;
     }
 
     .container-fluid.header {
-        height: 500px;
+        height: 50vh;
         background-size: cover;
     }
     img.img-product {
@@ -523,6 +530,7 @@ p#notice {
         font-size: 18px !important;
         margin: 20px 0 !important;
     }
+    
 }
 @media (min-width: 992px) and (max-width:1199px){
     ul.navbar-nav.menu-left {
@@ -542,14 +550,16 @@ p#notice {
     }
     
     p.name-product {
-        font-size: 1.5rem;
+        font-size: 18px;
     }
     
     p#count {
         font-size: 18px;
         padding: 5px 20px;
     }
-    
+    p.price-product {
+        font-size: 18px;
+    }
     .pay {
         font-size: 18px !important;
         position: inherit !important;
@@ -557,7 +567,13 @@ p#notice {
     
     .block-total {
         height: auto;
+        font-size: 18px;
     }
-    
-    button.btn.btn-danger.pay.waves-effect.waves-light {}
+    p.provisional-money-amount {
+        font-size: 18px;
+    }
+    #sologan h1 {
+        color: white !important;
+        font-size: 2.5rem;
+    }
 }

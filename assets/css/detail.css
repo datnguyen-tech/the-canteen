@@ -78,7 +78,7 @@ div#book_now {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-50%, -70%);
 }
 
 #sologan h1 {
@@ -414,7 +414,7 @@ i.fab.fa-google-plus {
 /* reponsive */
 @media (min-width: 320px) and (max-width:479px){
     .container-fluid.header {
-        height: 400px;
+        height: 40vh;
         background-size: cover;
     }
     span.navbar-toggler-icon {
@@ -429,19 +429,13 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 32px;
+        font-size:18px;
     }
 
-    div#book_now {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-    }
 
     button.btn.btn-danger {
-        font-size: 18px;
+        padding: 5px 10px;
+    font-size: 16px;
     }
     .navbar-brand img {
         height: 44px !important;
@@ -476,9 +470,13 @@ i.fab.fa-google-plus {
     }
     
     .name-time h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        white-space: nowrap;
+        font-weight: 600;
     }
-    
+    .name-time p {
+        margin-left: 15px;
+    }
     .comment {
         border-bottom: 1px dotted #eaeaea;
         padding-bottom: 26px;
@@ -503,10 +501,29 @@ i.fab.fa-google-plus {
     .price-product h3 {
         font-size: 1.5rem !important;
     }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address{
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 @media (min-width: 480px) and (max-width:575px){
     .container-fluid.header {
-        height: 400px;
+        height: 40vh;
         background-size: cover;
     }
     span.navbar-toggler-icon {
@@ -521,19 +538,12 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 32px;
-    }
-
-    div#book_now {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 50%;
-        transform: translate(-50%, -50%);
+        font-size: 18px;
     }
 
     button.btn.btn-danger {
-        font-size: 18px;
+        padding: 5px 10px;
+        font-size: 16px;
     }
     .navbar-brand img {
         height: 44px !important;
@@ -551,6 +561,12 @@ i.fab.fa-google-plus {
 
     ul.navbar-nav.menu-right {
         font-size: 14px;
+    }
+    .row.main-detail {
+        padding-top: 50px;
+    }
+    .col-sm-10.col-xl-5.infor-product {
+        padding: 15px !important;
     }
     div#comment {
         padding: 0;
@@ -583,6 +599,28 @@ i.fab.fa-google-plus {
     
     .price-product h3 {
         font-size: 1.5rem !important;
+    }
+    div#infor {
+        padding: 10px;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width: 576px) and (max-width:767px){
@@ -675,6 +713,25 @@ i.fab.fa-google-plus {
     
     .price-product h3 {
         font-size: 1.5rem !important;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width: 768px) and (max-width:991px){

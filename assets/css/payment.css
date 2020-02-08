@@ -460,6 +460,25 @@ i.fab.fa-google-plus {
         order: -1;
         margin-bottom: 50px;
     }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 @media (min-width:768px) and (max-width:991px) {
     .menu-left .nav-item {
@@ -510,6 +529,7 @@ i.fab.fa-google-plus {
         order: -1;
         margin-bottom: 50px;
     }
+    
 }
 @media (min-width:992px) and (max-width:1199px){
     

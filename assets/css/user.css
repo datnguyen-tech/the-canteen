@@ -455,6 +455,25 @@ i.fab.fa-google-plus {
     .modal-dialog {
         padding: 0 30px;
     }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 @media (min-width:576px) and (max-width:767px) {
     .navbar-brand img {
@@ -490,6 +509,25 @@ i.fab.fa-google-plus {
     }
     .row.user {
         padding-top: 30px;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 

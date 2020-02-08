@@ -97,7 +97,7 @@ div#book_now {
 position: absolute;
 top: 70%;
 left: 50%;
-transform: translate(-70%, -50%);
+transform: translate(-50%, -70%);
 }
 
 #sologan h1 {
@@ -163,7 +163,7 @@ i.fab.fa-google-plus {
 /* reponsive */
 @media (min-width: 320px) and (max-width:479px){
     .container-fluid.header {
-        height: 400px;
+        height: 40vh;
         background-size: cover;
     }
     span.navbar-toggler-icon {
@@ -178,19 +178,13 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 32px;
+        font-size: 18px;
     }
 
-    div#book_now {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-    }
 
     button.btn.btn-danger {
-        font-size: 18px;
+        padding: 5px 10px;
+        font-size: 16px;
     }
     a.navbar-brand{
         margin:0;
@@ -234,7 +228,7 @@ i.fab.fa-google-plus {
 }
 @media (min-width: 480px) and (max-width:575px){
     .container-fluid.header {
-        height: 400px;
+        height: 40vh;
         background-size: cover;
     }
     span.navbar-toggler-icon {
@@ -249,19 +243,11 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 32px;
+        font-size: 1.5rem;
     }
-
-    div#book_now {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-    }
-
     button.btn.btn-danger {
-        font-size: 18px;
+        padding: 5px 10px;
+        font-size: 16px;
     }
     a.navbar-brand{
         margin:0;
@@ -320,7 +306,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 32px;
+        font-size: 1.7rem;
     }
 
     div#book_now {
@@ -357,6 +343,25 @@ i.fab.fa-google-plus {
     button.btn.btn-info {
         font-size: 1rem;
     }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address-footer {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 @media (min-width: 768px) and (max-width:991px){
     .menu-left .nav-item {
@@ -372,7 +377,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 48px;
+        font-size: 2rem;
     }
 
     .container-fluid.header {
@@ -391,5 +396,9 @@ i.fab.fa-google-plus {
 
     a.navbar-brand {
         margin-left: 45px;
+    }
+    #sologan h1 {
+        color: white !important;
+        font-size: 2.5rem;
     }
 }

@@ -98,15 +98,15 @@
                             <div class="modal-body mb-1">
                                 <div class="md-form form-sm mb-5">
                                     <i class="fas fa-envelope prefix"></i>
-                                    <input type="email" id="modalLRInput10"
+                                    <input name="email" type="email" id="modalLRInput10"
                                         class="form-control form-control-sm validate">
                                     <label data-error="wrong" data-success="right" for="modalLRInput10">Email</label>
                                 </div>
 
                                 <div class="md-form form-sm mb-4">
                                     <i class="fas fa-lock prefix"></i>
-                                    <input type="password" id="modalLRInput11"
-                                        class="form-control form-control-sm validate">
+                                    <input name="password" type="password" id="modalLRInput11"
+                                        class="form-control form-control-sm validate" required>
                                     <label data-error="wrong" data-success="right" for="modalLRInput11">Mật khẩu</label>
                                 </div>
                                 <div class="text-center mt-2">
@@ -198,7 +198,7 @@
                     <div class="menu-1">
                         <img src="assets/imgs/product2.png" alt="product 1" class="img-product">
                         <p class="name-product text-center">Grilled fish</p>
-                        <p class="ingredients text-center">Hải sản, rau xà lách,cá hồi...</p>
+                        <p class="ingredients text-center">Phô mai, hải sản, rau xà lách....</p>
                         <p class="price-product text-center">200.000đ</p>
                         <button type="button" class="btn btn-danger button-buy" data-product_key="product-1"
                             onclick="addToCart(this)">Mua</button>
@@ -206,14 +206,14 @@
                     <div class="menu-1">
                         <img src="assets/imgs/product3.png" alt="product 1" class="img-product ">
                         <p class="name-product text-center">Vegetarial</p>
-                        <p class="ingredients text-center">Cà chua, mực, nước sốt...</p>
+                        <p class="ingredients text-center">Phô mai, hải sản, rau xà lách...</p>
                         <p class="price-product text-center">150.000đ</p>
                         <button type="button" class="btn btn-danger button-buy" data-product_key="product-2"
                             onclick="addToCart(this)">Mua</button>
                     </div>
                     <div class="menu-1">
                         <img src="assets/imgs/product5.png" alt="product 1" class="img-product">
-                        <p class="name-product text-center">Lotus delight salad</p>
+                        <p class="name-product text-center">Lotus salad</p>
                         <p class="ingredients text-center">Phô mai, hải sản, rau xà lách...</p>
                         <p class="price-product text-center">350.000đ</p>
                         <button type="button" class="btn btn-danger button-buy">Mua</button>
@@ -853,7 +853,7 @@
                         <div class="card-body">
                             <p class="card-time">01/02 - 14/02</p>
                             <h4 class="card-title"><a href="">Mua 3 trả tiền 2</a> </h4>
-                            <p class="card-text"><a href="" class="card-text">Xem chi tiết</a></p>
+                            <p class="card-text"><a href="khuyen-mai-detail.html" class="card-text">Xem chi tiết</a></p>
                         </div>
                     </div>
                     <div class="card">
@@ -862,8 +862,8 @@
                     </div>
                         <div class="card-body">
                             <p class="card-time">25/01 - 05/02</p>
-                            <h4 class="card-title"><a href=""">Lì xì voucher</a></h4>
-                            <p class=" card-text"><a href="" class="card-text">Xem chi tiết</a></p>
+                            <h4 class="card-title"><a href="khuyen-mai-detail.html">Lì xì voucher</a></h4>
+                            <p class=" card-text"><a href="khuyen-mai-detail.html" class="card-text">Xem chi tiết</a></p>
                         </div>
                     </div>
                     <div class="card">
@@ -872,8 +872,8 @@
                         </div>
                         <div class="card-body">
                             <p class="card-time">01/02 - 08/02</p>
-                            <h4 class="card-title"><a href="" ">Đại hội đồng giá</a></h4>
-                            <p class=" card-text"><a href="" class="card-text">Xem chi tiết</a></p>
+                            <h4 class="card-title"><a href="khuyen-mai-detail.html">Đại hội đồng giá</a></h4>
+                            <p class=" card-text"><a href="khuyen-mai-detail.html" class="card-text">Xem chi tiết</a></p>
                         </div>
                     </div>
                 </div>
@@ -971,6 +971,7 @@
     <script src="library/jquery/jquery.js"></script>
     <script src="index.js"></script>
     <script src="addToCart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="library/slick-1.8.1/slick/slick.min.js"></script>
     <script src="library/MDB/js/popper.min.js"></script>

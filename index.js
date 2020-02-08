@@ -50,7 +50,7 @@ $(document).ready(function () {
                     infinite: true,
                     autoplay:true,
                     autoplaySpeed:2000,
-                    dots:false
+                    dots:true
                 }
             },
             {
@@ -59,8 +59,10 @@ $(document).ready(function () {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                     arrows: false,
+                    autoplay:true,
+                    autoplaySpeed:2000,
                     infinite: true,
-                    dots:false
+                    dots:true
                 }
             },
             {
@@ -68,6 +70,8 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
+                    autoplay:true,
+                    autoplaySpeed:2000,
                     slidesToScroll: 1
                 }
             }

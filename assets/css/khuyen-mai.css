@@ -82,7 +82,7 @@ div#book_now {
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-70%, -50%);
+    transform: translate(-50%, -70%);
 }
 
 #sologan h1 {
@@ -191,7 +191,13 @@ button.btn-readmore {
     border: none;
     border-radius: 5px;
 }
-
+.btn-form a {
+    color: #fff;
+}
+.btn-form a:hover{
+    text-decoration: none;
+    color: #fff;
+}
 .img-content {
     position: absolute;
 }
@@ -295,7 +301,7 @@ i.fab.fa-google-plus {
 /* reponsive */
 @media (min-width:320px) and (max-width:479px) {
     .container-fluid.header {
-        height: 50vh;
+        height: 40vh;
         background-size: cover;
         background-position: center;
     }
@@ -322,7 +328,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 2rem;
+        font-size:18px;
     }
 
     button.btn.btn-danger.waves-effect.waves-light {
@@ -431,9 +437,11 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-
+    span.navbar-toggler-icon {
+        background-color: #fff;
+    }
     button.btn.btn-danger.waves-effect.waves-light {
         font-size: 18px;
         padding: 10px 20px;
@@ -490,7 +498,25 @@ i.fab.fa-google-plus {
         margin-bottom: 0;
         height: auto;
     }
-
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 
 @media (min-width:576px) and (max-width:767px) {
@@ -512,7 +538,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 32px;
+        font-size: 1.7rem;
     }
 
     div#book_now {
@@ -572,6 +598,25 @@ i.fab.fa-google-plus {
         font-size: 18px;
         height: 40px;
     }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -588,7 +633,7 @@ i.fab.fa-google-plus {
     }
 
     #sologan h1 {
-        font-size: 48px;
+        font-size: 2rem;
     }
 
     .container-fluid.header {
@@ -650,5 +695,9 @@ i.fab.fa-google-plus {
 
     .content-prom {
         width: 60%;
+    }
+    #sologan h1 {
+        color: white !important;
+        font-size: 2.5rem;
     }
 }

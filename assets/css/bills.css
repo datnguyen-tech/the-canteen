@@ -459,23 +459,40 @@ i.fab.fa-google-plus {
     h2.price-product {
         font-size: 1.5rem;
     }
-    
-    ul#myTab {
-        flex-wrap: wrap-reverse;
-        justify-content: space-evenly;
-        border-top: 1px solid #dee2e6;
-    }
-    
     .block-info-user {
-        margin-top: 30px;
-    }
-    
+    margin-top: 40px;
+}
+    ul#myTab {
+        flex-wrap: nowrap;
+        border: 1px solid #dee2e6;
+        white-space: nowrap;
+        overflow: scroll;
+    }  
     button.btn.log-out {
         width: 75%;
     }
     
     .block-user {
         margin: 0 15px;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width:576px) and (max-width:767px){
@@ -486,6 +503,8 @@ i.fab.fa-google-plus {
     ul#myTab {
         flex-wrap: nowrap;
         text-align: center;
+        white-space: nowrap;
+    overflow: scroll;
     }
     
     .block-info-user {
@@ -519,8 +538,33 @@ i.fab.fa-google-plus {
     .navbar-light .navbar-toggler {
         border: 0.5px solid #fff;
     }
+    .block-user {
+        border: 1px solid #CEB4B4;
+        text-align: center;
+        background-color: #fff;
+        height: 340px;
+    }
     .name-user h3{
         font: 1.3rem;
+    }
+    p#sologan-footer {
+        font-size: 18px;
+    }
+    
+    p#address {
+        font-size: 18px;
+    }
+    
+    i.fab.fa-facebook {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-twitter-square {
+        font-size: 24px;
+    }
+    
+    i.fab.fa-google-plus {
+        font-size: 24px;
     }
 }
 @media (min-width:768px) and (max-width:991px){
@@ -545,11 +589,14 @@ i.fab.fa-google-plus {
     }
     
     p.amount-product {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-    
+    h2.price-product {
+        font-size: 1.5rem;
+    }
     h2.name-product {
         margin-bottom: 0;
+        font-size: 1.5rem;
     }
 }
 @media (min-width:992px) and (max-width:1199px){
