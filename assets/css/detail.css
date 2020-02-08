@@ -155,7 +155,13 @@ button.btn-buy {
     border: none;
     margin-left: 20px;
 }
-
+button.btn-buy a {
+    color: #fff;
+}
+button.btn-buy a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 .select-count {
     position: relative;
     height: 54px;
